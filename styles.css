@@ -1,0 +1,17 @@
+.circle {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right, #c31432, #240b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 1000px;
+    animation: rotateSphere 2s infinite forwards;
+}
+
+@keyframes rotateSphere {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
